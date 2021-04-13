@@ -1,0 +1,98 @@
+@import 'vars.scss';
+@import 'fonts.scss';
+
+@import 'normalize.scss';
+@import 'reset.scss';
+@import 'libs.scss';
+
+@import 'global.scss';
+
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 136px;
+    padding-top: 12px;
+  }
+}
+
+.logo-icon {
+  padding: 0;
+  width: 186px;
+  height: 124px;
+  margin-right: 46px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list-item {
+    margin-right: 50px;
+  }
+  &__list-item:last-child {
+    margin-right: 0;
+  }
+  &__list-link {
+    color: $color-first;
+    font-weight: 500;
+    line-height: 19.5px;
+  }
+}
+.contact {
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+  &__list-item {
+    margin-bottom: 6px;
+    margin-left: auto;
+  }
+  &__list-phone {
+    color: $color-first;
+    font-weight: 500;
+    line-height: 19.5px;
+  }
+  &__list-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: $color-second;
+  }
+}
+
+.footer {
+  //   height: 168px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__contact {
+    padding-top: 48px;
+    padding-bottom: 10px;
+  }
+  &__info {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  &__contact-phone,
+  &__contact-email {
+    display: flex;
+    align-items: center;
+  }
+
+  &__copyright {
+    text-align: center;
+    padding-bottom: 16px;
+  }
+}

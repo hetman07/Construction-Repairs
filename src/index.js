@@ -1,2 +1,2 @@
-import './scss/normalize.scss';
-import './styles.css';
+import './scss/main.scss';
+// import './styles.css';
